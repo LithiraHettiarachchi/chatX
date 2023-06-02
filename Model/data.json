@@ -1,0 +1,67 @@
+{"intents":[
+		{"tag": "greeting",
+		"patterns": ["Hi", "How are you?", "Hello", "Good morning", "Good afternoon", "Good day", "Is anyone there?", "What's up?", "Hola"],
+		"responses": ["Hi","I'm fine.","Hello", "Good morning","Hey", "Hi there. How can I help you?", "Hola", "I'm here. What's going on?"],
+		"context_set": ""
+		},
+		{"tag": "goodbye",
+		"patterns": ["cya", "See you later.", "I'm leaving.", "Have a nice day.", "Thank you.", "goodbye", "Bye"],
+		"responses": ["Love you...!", "Thank you come again", "Goodbye.", "Have a nice day.", "See you again."],
+		"context_set": ""
+		},
+		{"tag": "age",
+		"patterns": ["how old", "what is your age?", "how old are you", "age?", "old"],
+		"responses": ["I'm 23 years old.", "23", "23 years"],
+		"context_set": ""
+		},
+		{"tag": "name",
+		"patterns": ["What is your name?", "Name?", "Your name?", "What shoud I call you?"],
+		"responses": ["My name is ChatX", "ChatX", "I'm ChatX", "Call me ChatX"],
+		"context_set": ""
+		},
+		{"tag": "love",
+		"patterns": ["Do you love me?", "I love you.", "Love you"],
+		"responses": ["I love you too", "Love you", "Love yah"],
+		"context_set": ""
+		},
+		{"tag": "actions",
+		"patterns": ["What are you doing?", "How's doing?", "What do you do now?", "Are you doing something?"],
+		"responses": ["I'm chtting with you.", "Chatting with you.", "Hnaging out with you.", "Yes I'm chatting with you"],
+		"context_set": ""
+		},
+		{"tag": "location",
+		"patterns": ["Where are you from?", "Where do you live?", "location", "Origin from?", "Where are you developed?", "Where is your developer"],
+		"responses": ["I'm from Sri lanka.", "Sri lanka", "From Sri lanka", "In Sri lanka"],
+		"context_set": ""
+		},
+		{"tag": "eat",
+		"patterns": ["Can you eat?", "Do you eat?", "Are you hungry?"],
+		"responses": ["No I don't", "I'm not"],
+		"context_set": ""
+		},
+		{"tag": "priminister",
+		"patterns": ["Who is the priminister of Sri lanka?", "Sri lankan priminister?", "Name of ri lankan priminister", "SL priminister"],
+		"responses": ["Mr. Dinesh Gunawardhane."],
+		"context_set": ""
+		},
+		{"tag": "sri lanka",
+		"patterns": ["Where is Sri lanka?", "Is Sri lanka an island?", "What is Sri lanka?", "Sri Lanka", "Beauty of sri lanka"],
+		"responses": ["Sri Lanka is a beautyful country which is located is Indian ocean.", "Sri Lanka is a beautyful island which is located is Indian ocean."],
+		"context_set": ""
+		},
+		{"tag": "meals",
+		"patterns": ["What is the best meal in Sri lanka?", "Sri lankan food", "Food in sri lanka", "Best meal in sri lanka?"],
+		"responses": ["Rice and curry", "Rice with several curries."]
+		},
+		{"tag": "shopping",
+		"patterns": ["I like to buy something.", "let's go shopping", "What do you reccommend?", "What's on the menu?"],
+		"responses": ["Let's eat cookies.", "cookies and beer", "let's buy beer"],
+		"context_set": ""
+		},
+		{"tag": "travel",
+		"patterns": ["What is the best country to travel?", "World's best travel destination.","Best honymoon destination?", "Best for vaction"],
+		"responses": ["Switzerland or Scandinavian countries.", "Switzerland id the best travel destination", "Scandinavian region"]
+		}
+	]
+
+}
